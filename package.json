@@ -1,0 +1,13 @@
+{
+  "name": "bt-keyboard-app",
+  "version": "1.0.0",
+  "description": "iPadへの文字入力Webアプリ（iPhone入力→Mac/iPad表示）",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  }
+}
