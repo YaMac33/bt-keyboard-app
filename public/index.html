@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>iPhone入力画面</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body { font-family: sans-serif; margin: 2em; }
+    textarea { width: 100%; height: 6em; font-size: 1.2em; }
+    button { font-size: 1em; margin-top: 1em; }
+  </style>
+</head>
+<body>
+  <h2>iPadへの文字入力</h2>
+  <textarea id="inputText" placeholder="ここに文字を入力"></textarea>
+  <button id="sendBtn">送信</button>
+  <script src="script.js"></script>
+  <script>
+    window.btKeyboardApp = window.btKeyboardApp || {};
+    btKeyboardApp.role = "input";
+  </script>
+</body>
+</html>
